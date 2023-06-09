@@ -1,4 +1,4 @@
-# Edge Case: Housing your edge sensors
+# Edge Case: Housing your sensors at the edge
 
 ## Objective
 There are may IoT use cases where sensors and supporting boards are readily available,
@@ -10,7 +10,7 @@ and high volume deployments?
 
 ## Early prototype
 
-[](./docs/overview.png)
+![Early prototype](./docs/overview.png)
 
 ## Features
 
