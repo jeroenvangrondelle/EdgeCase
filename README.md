@@ -1,0 +1,30 @@
+# Edge Case: Housing your edge sensors
+
+## Objective
+There are may IoT use cases where sensors and supporting boards are readily available,
+but housing the electronics at the edge is a challenge. 
+
+Would it be possible to develop
+a easily scalable, semi professional case desighn that bridges the gap between early prototyping
+and high volume deployments?
+
+## Early prototype
+
+[](./docs/overview.png)
+
+## Features
+
+- [ ] A base case-design with lasercut front and back and a 3D printed house
+- [ ] A parametric implementation for automatic sizing to your PCB
+- [ ] Adding an optional battery holder
+- [ ] Adding connectors at the side
+- [ ] Swapple back design: Table model, screw mounts, and DIN rail
+
+## Todo for 0.2
+
+- [ ] Better side thinknesses
+- [ ] Use screws for fixing front and back
+- [ ] Parameterize towards PCB size + optional 2x 18650 battery holder
+
+## Supported boards
+
