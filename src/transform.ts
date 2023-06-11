@@ -10,18 +10,19 @@ const board_width=60,
     height=77, 
     depth=30;
 
+const start = -90
 
 //Transforming for a 60mm board and 42mm/77 batteryholder
 const transformations = [
     {
         dimension:0,
-        insertion: 50,
-        add: board_width-47
+        insertion: 30 + start,
+        add: board_width-34
     },
     {
         dimension:0,
-        insertion: 5 + board_width + 3 + 20,
-        add:bay_width-23
+        insertion: 5 + board_width + 6 + 5 + start,
+        add:bay_width-34
     },
     {
         dimension:1,
