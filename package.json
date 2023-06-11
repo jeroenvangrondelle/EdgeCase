@@ -1,0 +1,28 @@
+{
+  "name": "edgecase",
+  "version": "1.0.0",
+  "description": "## Objective There are may IoT use cases where sensors and supporting boards are readily available, but housing the electronics at the edge is a challenge.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "transform": "npx tsc ; node build/transform.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeroenvangrondelle/EdgeCase.git"
+  },
+  "author": "Jeroen van Grondelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeroenvangrondelle/EdgeCase/issues"
+  },
+  "homepage": "https://github.com/jeroenvangrondelle/EdgeCase#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "typescript": "^5.1.3"
+  }
+}
