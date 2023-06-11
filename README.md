@@ -22,6 +22,7 @@ and high volume deployments?
 
 ## Todo for 0.2
 
+- [ ] Smoother circles
 - [ ] Better side thinknesses
 - [ ] Use screws for fixing front and back
 - [ ] Parameterize towards PCB size + optional 2x 18650 battery holder
