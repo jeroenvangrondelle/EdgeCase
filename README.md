@@ -5,7 +5,7 @@ There are may IoT use cases where sensors and supporting boards are readily avai
 but housing the electronics at the edge is a challenge. 
 
 Would it be possible to develop
-a easily scalable, semi professional case desighn that bridges the gap between early prototyping
+a easily scalable, (semi) professional case design that bridges the gap between early prototyping
 and high volume deployments?
 
 ## Early prototype
