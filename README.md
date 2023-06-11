@@ -20,12 +20,17 @@ and high volume deployments?
 - [ ] Adding connectors at the side
 - [ ] Swapple back design: Table model, screw mounts, and DIN rail
 
-## Todo for 0.2
+## Todo for 0.3
 
-- [ ] Smoother circles
-- [ ] Better side thinknesses
-- [ ] Use screws for fixing front and back
 - [ ] Parameterize towards PCB size + optional 2x 18650 battery holder
+
+## Version log
+
+v0.2
+- [X] Smoother/parallel circles
+- [X] Better side thinknesses
+- [X] Use screws for fixing front and back
+
 
 ## Supported boards
 
