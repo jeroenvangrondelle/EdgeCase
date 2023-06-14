@@ -1,5 +1,9 @@
 
-IN v0.2
+In v0.2
+
+Both bays have a size of 34x50.
+
+Depth is 14
 
 The board width = 47mm
 - Split at 5 + 10 + slack

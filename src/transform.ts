@@ -2,7 +2,7 @@
 import * as fs from 'fs';
 
 
-const OBJ = 'prototypes/Edge Case 0.2.obj';
+const OBJ = 'prototypes/Edge Case 0.2 House.obj';
 const OUT_FILE = "output/transformed.obj";
 
 const board_width=60, 
@@ -26,7 +26,7 @@ const transformations = [
     },
     {
         dimension:1,
-        insertion: 40,
+        insertion: -80,
         add:height-50
     },
 
