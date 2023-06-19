@@ -10,7 +10,7 @@ and high volume deployments?
 
 ## Early prototype
 
-![Early prototype](./docs/overview_0.2.png)
+![Early prototype](./docs/overview_0.4.png)
 
 ## Features
 
