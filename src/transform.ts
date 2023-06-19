@@ -5,10 +5,10 @@ import * as fs from 'fs';
 const OBJ = 'prototypes/Edge Case 0.3 House.obj';
 const OUT_FILE = "output/transformed.obj";
 
-const board_width=25.4, 
-    bay_width = 31, 
-    height=60, 
-    depth=40;
+const A=25.4, 
+    B = 31, 
+    C=60, 
+    D=30;
 
 
 
@@ -17,31 +17,29 @@ const transformations = [
     {
         dimension:0,
         insertion: 30,
-        add: board_width-34
+        add: A-34
     },
     {
         dimension:0,
-        insertion: 5 + board_width + 6 + 5,
-        add:bay_width-34
+        insertion: 5 + A + 6 + 9,
+        add:B-34
     },
     {
         dimension:1,
         insertion: 40,
-        add:height-50
+        add:C-50
     },
 
     {
         dimension:2,
         insertion: 10,
-        add:depth-14
+        add:D-14
     },
 
 ]
 
 
 var obj = fs.readFileSync(OBJ, 'utf-8');
-
-
 
 
 transformations.forEach((transformation)=> {
