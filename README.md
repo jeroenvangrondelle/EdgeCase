@@ -25,9 +25,11 @@ Choose values for A, B and C so that your boards and/or battery holders fit, eit
 
 ![Measurements](./docs/measurements.png)
 
-## Todo for 0.3
+## Todo for 0.5
 
-- [ ] Parameterize towards PCB size + optional 2x 18650 battery holder
+- Support hex spacers to be inserted in screw holes?
+- How to parameterize the SVG's?
+- Online version of the parametrization
 
 ## Version log
 
@@ -36,6 +38,10 @@ v0.2
 - [X] Better side thinknesses
 - [X] Use screws for fixing front and back
 
+v0.3 and v0.4
+- [x] Smoother lines
+- [x] Support horizontal and vertical placement
+- [x] Parameterize towards PCB size + optional 2x 18650 battery holder
 
 ## Supported boards
 

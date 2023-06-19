@@ -2,7 +2,7 @@
 import * as fs from 'fs';
 
 
-const OBJ = 'prototypes/Edge Case 0.3 House.obj';
+const OBJ = 'prototypes/Edge Case 0.4 House.obj';
 const OUT_FILE = "output/transformed.obj";
 
 const A=25.4, 
