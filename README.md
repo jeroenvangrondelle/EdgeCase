@@ -20,6 +20,11 @@ and high volume deployments?
 - [ ] Adding connectors at the side
 - [ ] Swapple back design: Table model, screw mounts, and DIN rail
 
+## Scaling the case
+Choose values for A, B and C so that your boards and/or battery holders fit, either vertically or horiontally, in the two slots.
+
+![Measurements](./docs/measurements.png)
+
 ## Todo for 0.3
 
 - [ ] Parameterize towards PCB size + optional 2x 18650 battery holder
