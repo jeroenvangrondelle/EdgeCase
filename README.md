@@ -1,7 +1,7 @@
 # Edge Case: Housing your sensors at the edge
 
 ## Objective
-There are may IoT use cases where sensors and supporting boards are readily available,
+Often when developing IoT use cases, sensors and supporting boards are readily available,
 but housing the electronics at the edge is a challenge. 
 
 Would it be possible to develop
@@ -25,9 +25,14 @@ Choose values for A, B and C so that your boards and/or battery holders fit, eit
 
 ![Measurements](./docs/measurements.png)
 
+## Roadmap for 1.0
+
+- Connectors and leds?
+- External sensor bay?
+
 ## Todo for 0.5
 
-- Support hex spacers to be inserted in screw holes?
+- Support hex spacers to be inserted in screw holes? Or inzetmoeren?
 - How to parameterize the SVG's?
 - Online version of the parametrization
 
