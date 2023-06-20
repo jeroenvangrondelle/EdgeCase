@@ -27,14 +27,15 @@ Choose values for A, B and C so that your boards and/or battery holders fit, eit
 
 ## Roadmap for 1.0
 
-- Connectors and leds?
-- External sensor bay?
+- [ ] Connectors, (touch)buttons? 
+- [ ] Status leds and ambient feedback?
+- [ ] External sensor bay?
 
 ## Todo for 0.5
 
-- Support hex spacers to be inserted in screw holes? Or inzetmoeren?
-- How to parameterize the SVG's?
-- Online version of the parametrization
+- [ ] Support melt insrt nuts? Or hex spacers to be inserted in screw holes?
+- [ ] How to parameterize the SVG's (better)?
+- [ ] Online version of the parametrization
 
 ## Version log
 
