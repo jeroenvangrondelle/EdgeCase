@@ -8,9 +8,9 @@ const SVG = 'prototypes/Edge Case 0.4 Front.svg';
 const OUT_FILE_OBJ = "output/transformed.obj";
 const OUT_FILE_SVG = "output/transformed.svg";
 
-const A = 25.4, 
-    B = 31, 
-    C = 60, 
+const A = 60,
+    B = 15.4, 
+    C = 21,  
     D = 30;
 
 
@@ -20,17 +20,17 @@ const transformations = [
     {
         dimension:0,
         insertion: 30,
-        add: A-34
+        add: B-24
     },
     {
         dimension:0,
-        insertion: 5 + A + 6 + 9,
-        add:B-34
+        insertion: 5 + 10 + A + 6 + 9,
+        add:C-24
     },
     {
         dimension:1,
         insertion: 40,
-        add:C-50
+        add:A-50
     },
 
     {

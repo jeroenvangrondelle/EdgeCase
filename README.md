@@ -50,3 +50,7 @@ v0.3 and v0.4
 
 ## Supported boards
 
+| Board | A | B | C | D |
+| ---|---|---|---|---|
+| Firebeetle 2 + 18650 Battery Holder | 60 mm | 15.4 mm | 21 mm | 30 mm |
+
