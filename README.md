@@ -55,3 +55,6 @@ v0.3 and v0.4
 | ---|---|---|---|---|
 | Firebeetle 2 (60x25,4mm, 62mm including protruding USB connector) + 18650 Battery Holder (80x21mm) | 62 mm | 16 mm | 21 mm | 30 mm |
 
+## Contributors
+
+Contributers go here...
