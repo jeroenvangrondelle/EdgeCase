@@ -11,7 +11,7 @@ const OUT_FILE_SVG = "output/transformed.svg";
 const A = 62,
     B = 16, 
     C = 21,  
-    D = 25;
+    D = 30;
 
 
 
