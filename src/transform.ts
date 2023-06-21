@@ -8,10 +8,10 @@ const SVG = 'prototypes/Edge Case 0.4 Front.svg';
 const OUT_FILE_OBJ = "output/transformed.obj";
 const OUT_FILE_SVG = "output/transformed.svg";
 
-const A = 60,
-    B = 15.4, 
+const A = 62,
+    B = 16, 
     C = 21,  
-    D = 30;
+    D = 25;
 
 
 
