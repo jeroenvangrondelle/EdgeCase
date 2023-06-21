@@ -18,25 +18,25 @@ const A = 62,
 //Transforming for a 60mm board and 42mm/77 batteryholder
 const transformations = [
     {
-        dimension:0,
+        dimension: 0,
         insertion: 30,
         add: B-24
     },
     {
-        dimension:0,
-        insertion: 5 + 10 + A + 6 + 9,
-        add:C-24
+        dimension: 0,
+        insertion: 5 + 10 + B + 6 + 9,
+        add: C-24
     },
     {
-        dimension:1,
+        dimension: 1,
         insertion: 40,
-        add:A-50
+        add: A-50
     },
 
     {
-        dimension:2,
+        dimension: 2,
         insertion: 10,
-        add:D-14
+        add: D-14
     },
 
 ]
