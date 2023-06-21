@@ -18,7 +18,7 @@ and high volume deployments?
 - [ ] A parametric implementation for automatic sizing to your PCB
 - [ ] Adding an optional battery holder
 - [ ] Adding connectors at the side
-- [ ] Swapple back design: Table model, screw mounts, and DIN rail
+- [ ] Swappable back design: Table model, screw mounts, and DIN rail
 
 ## Scaling the case
 Choose values for A, B and C so that your boards and/or battery holders fit, either vertically or horiontally, in the two slots.
@@ -33,9 +33,9 @@ Choose values for A, B and C so that your boards and/or battery holders fit, eit
 
 ## Todo for 0.5
 
-- [ ] Support melt insrt nuts? Or hex spacers to be inserted in screw holes?
+- [ ] Support melt insert nuts
 - [ ] How to parameterize the SVG's (better)?
-- [ ] Online version of the parametrization
+- [ ] Online version of the design generator
 
 ## Version log
 
@@ -53,5 +53,5 @@ v0.3 and v0.4
 
 | Board | A | B | C | D |
 | ---|---|---|---|---|
-| Firebeetle 2 + 18650 Battery Holder | 60 mm | 15.4 mm | 21 mm | 30 mm |
+| Firebeetle 2 (60x25,4mm, 62mm including protruding USB connector) + 18650 Battery Holder (80x21mm) | 62 mm | 16 mm | 21 mm | 30 mm |
 
