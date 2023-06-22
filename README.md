@@ -12,7 +12,7 @@ and high volume deployments?
 
 ## Current version
 
-![Early prototype](./docs/overview_0.4.png)
+![Early prototype](./docs/overview_0.5.png)
 
 ## Features
 
