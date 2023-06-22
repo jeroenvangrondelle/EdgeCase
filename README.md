@@ -37,7 +37,9 @@ Choose values for A, B, C and D so that your boards and/or battery holders fit, 
 ## Todo for 0.5
 
 - [ ] Testing support for melt insert nuts
-- [ ] Small irregularity in the design at top left corner of the case.
+    - Ruthex M3 Schroefdraadbus M3 x 5.7
+- [x] Small irregularity in the design at top left corner of the case.
+- [x] Fixing the boards with a clip
 
 ## Version log
 

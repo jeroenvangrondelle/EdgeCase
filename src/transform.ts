@@ -2,8 +2,8 @@
 import * as fs from 'fs';
 
 
-const OBJ = 'prototypes/Edge Case 0.4 House.obj';
-const SVG = 'prototypes/Edge Case 0.4 Front.svg';
+const OBJ = 'prototypes/Edge Case 0.5 House.obj';
+const SVG = 'prototypes/Edge Case 0.5 Front.svg';
 
 const OUT_FILE_OBJ = "output/transformed.obj";
 const OUT_FILE_SVG = "output/transformed.svg";
@@ -35,7 +35,7 @@ const transformations = [
 
     {
         dimension: 2,
-        insertion: 10,
+        insertion: 16.5,
         add: D-14
     },
 
