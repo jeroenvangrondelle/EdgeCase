@@ -34,25 +34,26 @@ Choose values for A, B, C and D so that your boards and/or battery holders fit, 
 - [ ] How to parameterize the SVG's (better)?
 - [ ] Online version of the design generator
 
-## Todo for 0.5
-
-- [x] Testing support for melt insert nuts
-    - Ruthex M3 Schroefdraadbus M3 x 5.7
-- [x] Small irregularity in the design at top left corner of the case.
-- [x] Fixing the boards with a clip
-
 ## Version log
 
 v0.2
+
 - [X] Smoother/parallel circles
 - [X] Better side thinknesses
 - [X] Use screws for fixing front and back
 
 v0.3 and v0.4
+
 - [x] Smoother lines
 - [x] Support horizontal and vertical placement
 - [x] Parameterize towards PCB size + optional 2x 18650 battery holder
 
+v0.5
+
+- [x] Testing support for melt insert nuts (Ruthex M3 Schroefdraadbus M3 x 5.7)
+- [x] Small irregularity in the design at top left corner of the case.
+- [x] Fixing the boards with a clip
+ 
 ## Supported boards
 
 | Board | A | B | C | D |
@@ -64,5 +65,6 @@ v0.3 and v0.4
 Idea and design by Jeroen van Grondelle
 
 With contributions and feedback from:
+
 - Daan Boezeman
 - ...
