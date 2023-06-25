@@ -60,6 +60,12 @@ v0.5
 | ---|---|---|---|---|
 | Firebeetle 2 (60x25.4mm, 62mm including protruding USB connector) + 18650 Battery Holder (80x21mm) | 62 mm | 16 mm | 21 mm | 30 mm |
 
+## Modding
+
+Front and house are easy to mod. Front can be cut from plexiglas, but printing introduces extra modding options.
+
+![Modding](./docs/modding.png)
+
 ## Contributors
 
 Idea and design by Jeroen van Grondelle
