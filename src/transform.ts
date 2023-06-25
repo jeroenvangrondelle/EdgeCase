@@ -1,7 +1,7 @@
 
 import * as fs from 'fs';
 
-
+//const OBJ = 'prototypes/Edge Case 0.5 Front.obj';
 const OBJ = 'prototypes/Edge Case 0.5 House.obj';
 const SVG = 'prototypes/Edge Case 0.5 Front.svg';
 
