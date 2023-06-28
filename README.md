@@ -59,6 +59,9 @@ v0.5
 | Board | A | B | C | D |
 | ---|---|---|---|---|
 | Firebeetle 2 (60x25.4mm, 62mm including protruding USB connector) + 18650 Battery Holder (80x21mm) | 62 mm | 16 mm | 21 mm | 30 mm |
+| Arduino Nano (45x18mm) + 18650 Battery Holder (80x21mm) | 60 mm | 8 mm | 21 mm | 30 mm |
+
+
 
 ## Modding
 

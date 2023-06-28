@@ -8,12 +8,19 @@ const SVG = 'prototypes/Edge Case 0.5 Front.svg';
 const OUT_FILE_OBJ = "output/transformed.obj";
 const OUT_FILE_SVG = "output/transformed.svg";
 
-const A = 62,
+// Firebeetle
+var A = 62,
     B = 16, 
     C = 21,  
     D = 30;
 
-
+    /*
+// nano
+A = 60,
+B = 8, 
+C = 21,  
+D = 30;  
+*/
 
 //Transforming for a 60mm board and 42mm/77 batteryholder
 const transformations = [
