@@ -6,27 +6,26 @@ TODO
 - [x]  Check: lid fit
 - [x] rounded studs
 - [x]  tapped screw holes
-- []  new type of rims instead of the 8 flaps?
+- [x]  new type of rims instead of the 8 flaps?
 - [x] slightly more curve in the seal?
 - []  Make size actually changeable...
 */
-
 
 include <BOSL2/std.scad>
 include <BOSL2/wiring.scad>
 
 
-A = 22;
-B = 22;
+A=22;
+B=22;
 C=50;
 D=30;
 
-width = A + B + 36;
+width = A + B + 36; //6? 
 height = C + 30;
 
 wall=2;
 
-has_back = false;
+has_back = true;
 has_seal = true;
 
 detail = .2;
@@ -38,11 +37,18 @@ module wall()
             size1=width, size2=height, wall=wall, rounding=10, h=D);
         up(3) rect_tube($fa = 4, $fs=detail, 
             size1=width-2*wall, size2=height-2*wall, wall=3, rounding=8, h=24);
+        
+        up(4.5) right(width/2-6.5) cube([3, width-30, 3], center=true);
+        up(4.5) right(-width/2+6.5) cube([3, width-30, 3], center=true);
+        
+        up(4.5) fwd(height/2-6.5) cube([height-30, 3, 3], center=true);
+        up(4.5) fwd(-height/2+6.5) cube([height-30, 3, 3], center=true);
+        
     }
 }
 
 module back() {
-    cuboid($fa = 4, $fs=detail,[width,height,3], 
+    up(1.5) cuboid($fa = 4, $fs=detail, [width,height,3],
         rounding=10, edges=[FWD+RIGHT,FWD+LEFT,BACK+LEFT, BACK+RIGHT]);
 }
 
@@ -55,20 +61,20 @@ module lid() {
             //holes
             translate([width/2-9,height/2-9,0]) {
                 cylinder($fa = 4, $fs=0.1, h=30, r=2, center=true);
-                up(1) zcyl($fa = 4, $fs=detail, l=1, r1=2, r2=3);
+                up(.5) zcyl($fa = 4, $fs=detail, l=1.5, r1=2, r2=4);
             }
             translate([-(width/2-9),height/2-9,0])
             {
                 cylinder($fa = 4, $fs=0.1, h=30, r=2, center=true);
-                up(1) zcyl($fa = 4, $fs=detail, l=1, r1=2, r2=3);
+                up(.5) zcyl($fa = 4, $fs=detail, l=1.5, r1=2, r2=4);
             }
             translate([width/2-9,-(height/2-9),0]) {
                 cylinder($fa = 4, $fs=0.1, h=30, r=2, center=true);
-                up(1) zcyl($fa = 4, $fs=detail, l=1, r1=2, r2=3);
+               up(.5) zcyl($fa = 4, $fs=detail, l=1.5, r1=2, r2=4);
             }
             translate([-(width/2-9),-(height/2-9),0]) {
                 cylinder($fa = 4, $fs=0.1, h=30, r=2, center=true);
-                up(1) zcyl($fa = 4, $fs=detail, l=1, r1=2, r2=3);
+                up(.5) zcyl($fa = 4, $fs=detail, l=1.5, r1=2, r2=4);
             }
         }
     }
@@ -83,19 +89,15 @@ module stud() {
                     cube([10, 10, 24], center=false)
                         edge_mask(BACK+RIGHT) 
                             #rounding_edge_mask(l=24, r=4, orient=UP);
-            }
-            union() {
-                translate([-1,-1,0]) cylinder($fa = 4, $fs=detail, h=30, r=2);
-            }
+            }    
+            translate([-1,-1,0]) cylinder($fa = 4, $fs=detail, h=30, r=2);
         }
-        translate([3,-5,3]) cube([10,10,3]);
-        translate([-5,3,3]) cube([10,10,3]);
     }
 }
 
 module support()
 {
-    translate([-35, -3, 3]) cube([70,6,4]);
+    translate([-35, -3, 3]) cube([70,6,3]);
     difference() {
         translate([-35, -1, 6]) cube([70, 2, 21]);
         translate([-25, -1.5, 9]) cube([50, 3, 23]);
@@ -119,7 +121,7 @@ module house() {
             
         }
         union() {
-            cube([100,100,40], center=true);
+            //cube([100,100,40], center=true);
             
             // back seal, if no back
             if(!has_back && has_seal) {
@@ -165,5 +167,5 @@ module house() {
 
 house();
 
-right(80) lid();
+right(90) lid();
 
