@@ -1,8 +1,10 @@
 
 import * as fs from 'fs';
 
-//const OBJ = 'prototypes/Edge Case 0.5 Front.obj';
-const OBJ = 'prototypes/Edge Case 0.5 House.obj';
+const OBJ = 'prototypes/Edge Case 0.5 Front.obj';
+//const OBJ = 'prototypes/Edge Case 0.5 House.obj';
+//const OBJ = 'prototypes/Edge Case 0.6 WP.obj';
+
 const SVG = 'prototypes/Edge Case 0.5 Front.svg';
 
 const OUT_FILE_OBJ = "output/transformed.obj";
@@ -21,6 +23,14 @@ B = 8,
 C = 21,  
 D = 30;  
 */
+
+/* liliogo
+*/
+A=62
+B=15
+C=21
+D=30
+
 
 //Transforming for a 60mm board and 42mm/77 batteryholder
 const transformations = [
